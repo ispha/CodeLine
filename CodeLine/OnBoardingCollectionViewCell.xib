@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="OnBoardingCollectionViewCell" customModule="CodeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="709"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="709"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnBoarding_0" translatesAutoresizingMaskIntoConstraints="NO" id="kD2-mK-acg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="469.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Contact With You Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyG-Y3-yCv">
+                        <rect key="frame" x="61.5" y="489.5" width="252" height="27.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27.5" id="z5e-0t-xUG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Now Use Our Code Line and go with your friends anywhere anytime , Let's Go" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-Fy-eHg">
+                        <rect key="frame" x="37.5" y="530.5" width="300" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33.5" id="AgA-Wz-JZR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fl-Q4-ROU" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="56.5" y="584" width="262.5" height="48"/>
+                        <color key="backgroundColor" red="0.96025902029999999" green="0.84900027509999998" blue="0.68867629770000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="Zoe-0p-oU8"/>
+                        </constraints>
+                        <state key="normal" title="Sing up">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-sD-YUp" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="56.5" y="649.5" width="262.5" height="48"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="QdS-Jx-AaZ"/>
+                        </constraints>
+                        <state key="normal" title="Login">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="UyG-Y3-yCv" firstAttribute="top" secondItem="kD2-mK-acg" secondAttribute="bottom" constant="20" id="1Ip-EK-Jr3"/>
+                <constraint firstItem="kD2-mK-acg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AXK-HO-dO8"/>
+                <constraint firstItem="ECo-Fy-eHg" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.8" id="HWd-fs-juE"/>
+                <constraint firstItem="ECo-Fy-eHg" firstAttribute="centerX" secondItem="UyG-Y3-yCv" secondAttribute="centerX" id="STq-6e-3TJ"/>
+                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="centerX" secondItem="kD2-mK-acg" secondAttribute="centerX" id="Uc1-2e-P7d"/>
+                <constraint firstAttribute="trailing" secondItem="kD2-mK-acg" secondAttribute="trailing" id="aPT-hC-tKJ"/>
+                <constraint firstItem="zaY-sD-YUp" firstAttribute="centerX" secondItem="6Fl-Q4-ROU" secondAttribute="centerX" id="aXd-ou-UpL"/>
+                <constraint firstAttribute="bottom" secondItem="zaY-sD-YUp" secondAttribute="bottom" constant="11.5" id="ddH-1j-GGN"/>
+                <constraint firstItem="zaY-sD-YUp" firstAttribute="top" secondItem="6Fl-Q4-ROU" secondAttribute="bottom" constant="17.5" id="hPB-yG-ixM"/>
+                <constraint firstAttribute="top" secondItem="kD2-mK-acg" secondAttribute="top" id="ltd-5N-27n"/>
+                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="top" secondItem="ECo-Fy-eHg" secondAttribute="bottom" constant="20" id="tTc-B7-Xdp"/>
+                <constraint firstItem="zaY-sD-YUp" firstAttribute="width" secondItem="6Fl-Q4-ROU" secondAttribute="width" id="u3V-mk-xBX"/>
+                <constraint firstItem="UyG-Y3-yCv" firstAttribute="centerX" secondItem="kD2-mK-acg" secondAttribute="centerX" id="v26-XA-d00"/>
+                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="width" secondItem="kD2-mK-acg" secondAttribute="width" multiplier="0.7" id="ye4-0V-Pod"/>
+                <constraint firstItem="ECo-Fy-eHg" firstAttribute="top" secondItem="UyG-Y3-yCv" secondAttribute="bottom" constant="13.5" id="z1p-pa-Z7O"/>
+            </constraints>
+            <size key="customSize" width="375" height="709"/>
+            <point key="canvasLocation" x="235.50724637681162" y="307.70089285714283"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="6Fl-Q4-ROU">
+            <size key="intrinsicContentSize" width="52" height="30"/>
+        </designable>
+        <designable name="zaY-sD-YUp">
+            <size key="intrinsicContentSize" width="38" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="OnBoarding_0" width="114.5" height="154"/>
+    </resources>
+</document>

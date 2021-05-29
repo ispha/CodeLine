@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AudioTableViewCell_FromMe" id="KGk-i7-Jjw" customClass="AudioTableViewCell_FromMe" customModule="CodeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHo-sL-CKO" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="261" height="51"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BG9-dc-DsC">
+                                <rect key="frame" x="12" y="12" width="14" height="22"/>
+                                <state key="normal" image="play_icon"/>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="0vI-tz-xwC">
+                                <rect key="frame" x="38" y="21" width="175.5" height="4"/>
+                                <color key="tintColor" red="1" green="0.75294117647058822" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="progressTintColor" red="1" green="0.75294117650000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="trackTintColor" red="0.55686274509803924" green="0.5725490196078431" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p47-VQ-Rkt">
+                                <rect key="frame" x="225.5" y="16" width="23.5" height="14"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00 15 Mar , 10:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sr-gM-jJd">
+                                <rect key="frame" x="126" y="38" width="123" height="14"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.69803921568627447" green="0.71764705882352942" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4392156862745098" green="0.16078431372549018" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Sr-gM-jJd" firstAttribute="trailing" secondItem="p47-VQ-Rkt" secondAttribute="trailing" id="3Vm-MU-VOb"/>
+                            <constraint firstItem="5Sr-gM-jJd" firstAttribute="top" secondItem="p47-VQ-Rkt" secondAttribute="bottom" constant="8" id="OUu-g1-IcM"/>
+                            <constraint firstItem="0vI-tz-xwC" firstAttribute="leading" secondItem="BG9-dc-DsC" secondAttribute="trailing" constant="12" id="Pp9-cI-3T7"/>
+                            <constraint firstItem="p47-VQ-Rkt" firstAttribute="leading" secondItem="0vI-tz-xwC" secondAttribute="trailing" constant="12" id="isr-ig-YKG"/>
+                            <constraint firstItem="0vI-tz-xwC" firstAttribute="centerY" secondItem="BG9-dc-DsC" secondAttribute="centerY" id="kec-GX-COE"/>
+                            <constraint firstItem="BG9-dc-DsC" firstAttribute="top" secondItem="gHo-sL-CKO" secondAttribute="top" constant="12" id="mo4-5w-7I3"/>
+                            <constraint firstItem="BG9-dc-DsC" firstAttribute="leading" secondItem="gHo-sL-CKO" secondAttribute="leading" constant="12" id="qXF-pE-5ie"/>
+                            <constraint firstItem="p47-VQ-Rkt" firstAttribute="centerY" secondItem="0vI-tz-xwC" secondAttribute="centerY" id="yKO-4j-kKt"/>
+                            <constraint firstAttribute="trailing" secondItem="p47-VQ-Rkt" secondAttribute="trailing" constant="12" id="yuy-he-Ry0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gHo-sL-CKO" secondAttribute="trailing" constant="50" id="QWl-Pq-4gw"/>
+                    <constraint firstAttribute="bottom" secondItem="gHo-sL-CKO" secondAttribute="bottom" constant="8" id="jfZ-rZ-PdW"/>
+                    <constraint firstItem="gHo-sL-CKO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="qzM-9E-cPO"/>
+                    <constraint firstItem="gHo-sL-CKO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="vaG-oT-PcW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="-31.159420289855074" y="95.424107142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play_icon" width="14" height="16"/>
+    </resources>
+</document>
