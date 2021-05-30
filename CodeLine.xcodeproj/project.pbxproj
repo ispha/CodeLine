@@ -48,6 +48,19 @@
 		24AA5F86265F040000663FBF /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F84265F040000663FBF /* MessagesViewController.xib */; };
 		24AA5F8F265F054D00663FBF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F8D265F054D00663FBF /* SettingsViewController.swift */; };
 		24AA5F90265F054D00663FBF /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F8E265F054D00663FBF /* SettingsViewController.xib */; };
+		24B7DFEE2662A702007965C1 /* SecurityCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7DFED2662A702007965C1 /* SecurityCodeViewController.swift */; };
+		24B7DFF42662C51F007965C1 /* CallsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7DFF22662C51F007965C1 /* CallsTableViewCell.swift */; };
+		24B7DFF52662C51F007965C1 /* CallsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7DFF32662C51F007965C1 /* CallsTableViewCell.xib */; };
+		24B7DFFB26630376007965C1 /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7DFF926630376007965C1 /* CallingViewController.swift */; };
+		24B7DFFC26630376007965C1 /* CallingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7DFFA26630376007965C1 /* CallingViewController.xib */; };
+		24B7E00226630422007965C1 /* RingingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7E00026630422007965C1 /* RingingViewController.swift */; };
+		24B7E00326630422007965C1 /* RingingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7E00126630422007965C1 /* RingingViewController.xib */; };
+		24B7E0092663043D007965C1 /* InCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7E0072663043D007965C1 /* InCallViewController.swift */; };
+		24B7E00A2663043D007965C1 /* InCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7E0082663043D007965C1 /* InCallViewController.xib */; };
+		24B7E01026631637007965C1 /* ParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7E00E26631637007965C1 /* ParticipantsViewController.swift */; };
+		24B7E01126631637007965C1 /* ParticipantsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7E00F26631637007965C1 /* ParticipantsViewController.xib */; };
+		24B7E017266317F9007965C1 /* ParticipantaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */; };
+		24B7E018266317F9007965C1 /* ParticipantaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */; };
 		24E2A8CF265B1DCF002C8039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A8CE265B1DCF002C8039 /* AppDelegate.swift */; };
 		24E2A8D1265B1DCF002C8039 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A8D0265B1DCF002C8039 /* SceneDelegate.swift */; };
 		24E2A8D3265B1DCF002C8039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A8D2265B1DCF002C8039 /* ViewController.swift */; };
@@ -150,6 +163,19 @@
 		24AA5F84265F040000663FBF /* MessagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
 		24AA5F8D265F054D00663FBF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		24AA5F8E265F054D00663FBF /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		24B7DFED2662A702007965C1 /* SecurityCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCodeViewController.swift; sourceTree = "<group>"; };
+		24B7DFF22662C51F007965C1 /* CallsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewCell.swift; sourceTree = "<group>"; };
+		24B7DFF32662C51F007965C1 /* CallsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallsTableViewCell.xib; sourceTree = "<group>"; };
+		24B7DFF926630376007965C1 /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
+		24B7DFFA26630376007965C1 /* CallingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallingViewController.xib; sourceTree = "<group>"; };
+		24B7E00026630422007965C1 /* RingingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingingViewController.swift; sourceTree = "<group>"; };
+		24B7E00126630422007965C1 /* RingingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RingingViewController.xib; sourceTree = "<group>"; };
+		24B7E0072663043D007965C1 /* InCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallViewController.swift; sourceTree = "<group>"; };
+		24B7E0082663043D007965C1 /* InCallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InCallViewController.xib; sourceTree = "<group>"; };
+		24B7E00E26631637007965C1 /* ParticipantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsViewController.swift; sourceTree = "<group>"; };
+		24B7E00F26631637007965C1 /* ParticipantsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantsViewController.xib; sourceTree = "<group>"; };
+		24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantaTableViewCell.swift; sourceTree = "<group>"; };
+		24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantaTableViewCell.xib; sourceTree = "<group>"; };
 		24E2A8CB265B1DCF002C8039 /* CodeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2A8CE265B1DCF002C8039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24E2A8D0265B1DCF002C8039 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -338,6 +364,19 @@
 				2443B17026619A5200B86E00 /* OccasionsViewController.xib */,
 				2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */,
 				2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */,
+				24B7DFED2662A702007965C1 /* SecurityCodeViewController.swift */,
+				24B7DFF22662C51F007965C1 /* CallsTableViewCell.swift */,
+				24B7DFF32662C51F007965C1 /* CallsTableViewCell.xib */,
+				24B7DFF926630376007965C1 /* CallingViewController.swift */,
+				24B7DFFA26630376007965C1 /* CallingViewController.xib */,
+				24B7E00026630422007965C1 /* RingingViewController.swift */,
+				24B7E00126630422007965C1 /* RingingViewController.xib */,
+				24B7E0072663043D007965C1 /* InCallViewController.swift */,
+				24B7E0082663043D007965C1 /* InCallViewController.xib */,
+				24B7E00E26631637007965C1 /* ParticipantsViewController.swift */,
+				24B7E00F26631637007965C1 /* ParticipantsViewController.xib */,
+				24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */,
+				24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */,
 			);
 			path = CodeLine;
 			sourceTree = "<group>";
@@ -499,12 +538,16 @@
 				24AA5EDC265EAA5600663FBF /* MessageAddCollectionViewCell.xib in Resources */,
 				24AA5F00265EBDEF00663FBF /* Roboto-Bold.ttf in Resources */,
 				24E2A8DB265B1DD3002C8039 /* LaunchScreen.storyboard in Resources */,
+				24B7E00326630422007965C1 /* RingingViewController.xib in Resources */,
+				24B7E01126631637007965C1 /* ParticipantsViewController.xib in Resources */,
 				2473CB14265C643300AC3426 /* OnBoardingCollectionViewCell.xib in Resources */,
 				24AA5F90265F054D00663FBF /* SettingsViewController.xib in Resources */,
 				24AA5F01265EBDEF00663FBF /* Roboto-Italic.ttf in Resources */,
+				24B7DFF52662C51F007965C1 /* CallsTableViewCell.xib in Resources */,
 				24E2A8D8265B1DD3002C8039 /* Assets.xcassets in Resources */,
 				24AA5EFE265EBDEF00663FBF /* Roboto-LightItalic.ttf in Resources */,
 				24FEC5DC2660065400A34782 /* TextTableViewCell_FromMe.xib in Resources */,
+				24B7E018266317F9007965C1 /* ParticipantaTableViewCell.xib in Resources */,
 				2443B1792661A2D400B86E00 /* OccasionsTableViewCell.xib in Resources */,
 				24AA5EF9265EBDEF00663FBF /* Roboto-ThinItalic.ttf in Resources */,
 				24AA5F6C265F037F00663FBF /* CallsViewController.xib in Resources */,
@@ -514,6 +557,7 @@
 				24AA5EFC265EBDEF00663FBF /* Roboto-Black.ttf in Resources */,
 				24E2A8D6265B1DCF002C8039 /* Main.storyboard in Resources */,
 				24AA5EE8265EBBA100663FBF /* MessageTableViewCell.xib in Resources */,
+				24B7E00A2663043D007965C1 /* InCallViewController.xib in Resources */,
 				24AA5F86265F040000663FBF /* MessagesViewController.xib in Resources */,
 				24FEC61C26606A5E00A34782 /* GalleryCollectionViewCell.xib in Resources */,
 				24AA5EFD265EBDEF00663FBF /* Roboto-Medium.ttf in Resources */,
@@ -521,6 +565,7 @@
 				24AA5EFB265EBDEF00663FBF /* Roboto-BlackItalic.ttf in Resources */,
 				2443B1602661342200B86E00 /* ProjectDetailsViewController.xib in Resources */,
 				24FEC60426600DAD00A34782 /* ChatViewController.xib in Resources */,
+				24B7DFFC26630376007965C1 /* CallingViewController.xib in Resources */,
 				24AA5ED5265EAA3C00663FBF /* MessageCollectionViewCell.xib in Resources */,
 				24FEC5CF2660021600A34782 /* AudioTableViewCell_FromMe.xib in Resources */,
 				24FEC61226603AA800A34782 /* UserProfileViewController.xib in Resources */,
@@ -660,18 +705,24 @@
 				24E2A945265B2A25002C8039 /* RootWindowController.swift in Sources */,
 				24E2A944265B2A25002C8039 /* Initializer.swift in Sources */,
 				24AA5ED4265EAA3C00663FBF /* MessageCollectionViewCell.swift in Sources */,
+				24B7E01026631637007965C1 /* ParticipantsViewController.swift in Sources */,
 				24FEC5DB2660065400A34782 /* TextTableViewCell_FromMe.swift in Sources */,
 				24E2A927265B26E7002C8039 /* UIScrollView+Extension.swift in Sources */,
 				24AA5F72265F039800663FBF /* ConversationViewController.swift in Sources */,
 				24FEC61126603AA800A34782 /* UserProfileViewController.swift in Sources */,
+				24B7E017266317F9007965C1 /* ParticipantaTableViewCell.swift in Sources */,
 				24FEC5CE2660021600A34782 /* AudioTableViewCell_FromMe.swift in Sources */,
 				24E2A930265B26E7002C8039 /* UIViewController+Extension.swift in Sources */,
 				24E2A929265B26E7002C8039 /* UITableViewCell+Extension.swift in Sources */,
+				24B7DFFB26630376007965C1 /* CallingViewController.swift in Sources */,
 				24E2A8D3265B1DCF002C8039 /* ViewController.swift in Sources */,
 				24AA5F79265F03AA00663FBF /* ProfileViewController.swift in Sources */,
 				24E2A92B265B26E7002C8039 /* Extensions.swift in Sources */,
+				24B7DFF42662C51F007965C1 /* CallsTableViewCell.swift in Sources */,
 				2473CB19265C73AA00AC3426 /* OnBoardingViewController.swift in Sources */,
+				24B7E00226630422007965C1 /* RingingViewController.swift in Sources */,
 				24E2A92E265B26E7002C8039 /* UICollectionView+Extension.swift in Sources */,
+				24B7E0092663043D007965C1 /* InCallViewController.swift in Sources */,
 				24E2A931265B26E7002C8039 /* UIImageView.swift in Sources */,
 				24AA5F85265F040000663FBF /* MessagesViewController.swift in Sources */,
 				24FEC5E22660077100A34782 /* TextTableViewCell_ToMe.swift in Sources */,
@@ -686,6 +737,7 @@
 				2443B1782661A2D400B86E00 /* OccasionsTableViewCell.swift in Sources */,
 				24E2A92F265B26E7002C8039 /* UITableView+Extension.swift in Sources */,
 				24AA5EE7265EBBA100663FBF /* MessageTableViewCell.swift in Sources */,
+				24B7DFEE2662A702007965C1 /* SecurityCodeViewController.swift in Sources */,
 				24AA5F45265EF5AA00663FBF /* PagerController.swift in Sources */,
 				24E2A908265B24C8002C8039 /* Helpingmethods.swift in Sources */,
 				24E2A8D1265B1DCF002C8039 /* SceneDelegate.swift in Sources */,

@@ -20,6 +20,7 @@ class ProjectDetailsViewController: UIViewController {
     // MARK: - variables
     var panGesture = UIPanGestureRecognizer()
     var count = 13
+    var arrayOfGallImages = [UIImage]()
     var cellHeight : CGFloat = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +32,7 @@ class ProjectDetailsViewController: UIViewController {
     {
         registerNibFiles()
         setCollectionLayout()
-        setCvDynamicHeight()
+        setImages()
     }
     func registerNibFiles()
     {
@@ -40,6 +41,14 @@ class ProjectDetailsViewController: UIViewController {
         panGesture = UIPanGestureRecognizer(target: self, action: #selector(ProjectDetailsViewController.draggedView(_:)))
         outletOfViewDrag.isUserInteractionEnabled = true
         outletOfViewDrag.addGestureRecognizer(panGesture)
+    }
+    func setImages()
+    {
+        for i  in 0...11 {
+            arrayOfGallImages.append(UIImage(named: "gallery_\(i)")!)
+        }
+        count = arrayOfGallImages.count
+        setCvDynamicHeight()
     }
     func setCvDynamicHeight()
     {
@@ -90,7 +99,7 @@ extension ProjectDetailsViewController:UICollectionViewDelegate,UICollectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.identifier(), for: indexPath) as! GalleryCollectionViewCell
             cell.contentView.backgroundColor = .clear
-           // (cell.viewWithTag(5) as! UIImageView).image = UIImage(named: "OnBoarding_\(indexPath.item)")
+            cell.imgv.image = arrayOfGallImages[indexPath.item]
             cell.backgroundColor = .clear
             return cell
     }

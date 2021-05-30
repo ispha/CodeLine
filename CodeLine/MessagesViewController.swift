@@ -12,6 +12,7 @@ class MessagesViewController: UIViewController {
     // MARK- outlets
     @IBOutlet weak var cv: UICollectionView!
     @IBOutlet weak var tv: UITableView!
+    @IBOutlet weak var viewPopup: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,9 @@ class MessagesViewController: UIViewController {
     {
         registerNibFiles()
         setCollectionLayout()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+            self.viewPopup.isHidden = true
+        })
     }
     func registerNibFiles()
     {

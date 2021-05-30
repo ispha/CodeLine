@@ -520,7 +520,7 @@ extension UIColor {
 }
 
 extension UIView {
-    func fadeIn(duration: TimeInterval = 0.5, delay: TimeInterval = 0.0, completion: @escaping ((Bool) -> Void) = {(finished: Bool) -> Void in }) {
+    func fadeIn(duration: TimeInterval = 1, delay: TimeInterval = 0.0, completion: @escaping ((Bool) -> Void) = {(finished: Bool) -> Void in }) {
         self.alpha = 0.0
 
         UIView.animate(withDuration: duration, delay: delay, options: UIView.AnimationOptions.curveEaseIn, animations: {
@@ -529,13 +529,16 @@ extension UIView {
         }, completion: completion)
     }
 
-    func fadeOut(duration: TimeInterval = 0.5, delay: TimeInterval = 0.0, completion: @escaping (Bool) -> Void = {(finished: Bool) -> Void in }) {
+    func fadeOut(duration: TimeInterval = 1, delay: TimeInterval = 0.0, completion: @escaping (Bool) -> Void = {(finished: Bool) -> Void in
+      
+    }) {
         self.alpha = 1.0
 
         UIView.animate(withDuration: duration, delay: delay, options: UIView.AnimationOptions.curveEaseOut, animations: {
-            self.isHidden = true
+            
             self.alpha = 0.0
-        }, completion: completion)
+           
+        }, completion: { _ in self.isHidden = true})
     }
 }
 
@@ -782,3 +785,4 @@ func shake() {
     animation.values = [-20, 20, -20, 20, -10, 10, -5, 5, 0]
     self.layer.add(animation, forKey: "shake")
 }}
+

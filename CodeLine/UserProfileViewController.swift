@@ -10,8 +10,13 @@ import UIKit
 class UserProfileViewController: UIViewController {
     // MARK- outlets
     @IBOutlet weak var cv: UICollectionView!
+    @IBOutlet weak var viewPopup: UIView!
+    @IBOutlet weak var imgVPopup: UIImageView!
     @IBOutlet weak var svCenterContraint: NSLayoutConstraint!
     @IBOutlet weak var cvCenterConstraint: NSLayoutConstraint!
+    
+    // MARK: - variables
+    var arrayOfGallImages = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +29,7 @@ class UserProfileViewController: UIViewController {
         registerNibFiles()
         setCollectionLayout()
         setConstraints(index: 0)
+        setImages()
     }
     func registerNibFiles()
     {
@@ -41,8 +47,13 @@ class UserProfileViewController: UIViewController {
         cv.collectionViewLayout = layout
     }
     
-
-
+    func setImages()
+    {
+        for i  in 0...11 {
+            arrayOfGallImages.append(UIImage(named: "gallery_\(i)")!)
+        }
+        cv.reloadData()
+    }
     /*
     // MARK: - Navigation
 
@@ -54,6 +65,10 @@ class UserProfileViewController: UIViewController {
     */
     @IBAction func backAction(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func closeAction(_ sender: Any) {
+        viewPopup.fadeOut()
+       // viewPopup.isHidden = true
     }
     @IBAction func actionOfSc(_ sender: Any) {
        setConstraints(index: (sender as! UISegmentedControl).selectedSegmentIndex)
@@ -80,13 +95,20 @@ extension UserProfileViewController:UICollectionViewDelegate,UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.identifier(), for: indexPath) as! GalleryCollectionViewCell
             cell.contentView.backgroundColor = .clear
-           // (cell.viewWithTag(5) as! UIImageView).image = UIImage(named: "OnBoarding_\(indexPath.item)")
+            cell.imgv.image = arrayOfGallImages[indexPath.item]
             cell.backgroundColor = .clear
             return cell
         
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 12
+        return arrayOfGallImages.count
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath) as! GalleryCollectionViewCell
+        
+        imgVPopup.image = cell.imgv.image
+        //viewPopup.isHidden = false
+        viewPopup.fadeIn()
     }
   
 }

@@ -38,6 +38,9 @@
                 <constraint firstItem="RIh-7l-azv" firstAttribute="width" secondItem="RkU-nt-SIQ" secondAttribute="width" multiplier="0.95" id="cB3-qh-We4"/>
                 <constraint firstItem="RIh-7l-azv" firstAttribute="centerY" secondItem="RkU-nt-SIQ" secondAttribute="centerY" id="wPy-BB-hXq"/>
             </constraints>
+            <connections>
+                <outlet property="imgv" destination="RIh-7l-azv" id="vuR-GQ-gCq"/>
+            </connections>
             <point key="canvasLocation" x="0.0" y="79.6875"/>
         </collectionViewCell>
     </objects>

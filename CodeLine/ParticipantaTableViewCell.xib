@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ParticipantaTableViewCell" rowHeight="81" id="KOf-o4-pTH" customClass="ParticipantaTableViewCell" customModule="CodeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KOf-o4-pTH" id="bDg-yg-2Xp">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="78"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_in_sample" translatesAutoresizingMaskIntoConstraints="NO" id="DmQ-zY-S2Y" customClass="DesignableUIImageView" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="12" y="11.5" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="hhP-Is-SYc"/>
+                            <constraint firstAttribute="width" constant="55" id="zPe-NH-Dyz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mayada Salem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0e-A0-4xr">
+                        <rect key="frame" x="79" y="29.5" width="105" height="19"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                        <color key="textColor" red="0.027450980390000001" green="0.027450980390000001" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cam_on" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-Lb-pcM">
+                        <rect key="frame" x="299" y="27" width="24" height="24"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic_on" translatesAutoresizingMaskIntoConstraints="NO" id="vQk-q6-SdN">
+                        <rect key="frame" x="267" y="27" width="24" height="24"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CaZ-Lb-pcM" firstAttribute="leading" secondItem="vQk-q6-SdN" secondAttribute="trailing" constant="8" id="3YX-Gq-Xpz"/>
+                    <constraint firstItem="m0e-A0-4xr" firstAttribute="centerY" secondItem="DmQ-zY-S2Y" secondAttribute="centerY" id="8wA-va-MiC"/>
+                    <constraint firstItem="DmQ-zY-S2Y" firstAttribute="leading" secondItem="bDg-yg-2Xp" secondAttribute="leading" constant="12" id="JAB-3W-Hai"/>
+                    <constraint firstAttribute="trailing" secondItem="CaZ-Lb-pcM" secondAttribute="trailing" constant="14" id="JjF-h6-KhQ"/>
+                    <constraint firstItem="vQk-q6-SdN" firstAttribute="centerY" secondItem="m0e-A0-4xr" secondAttribute="centerY" id="LLH-8o-bpc"/>
+                    <constraint firstItem="CaZ-Lb-pcM" firstAttribute="centerY" secondItem="bDg-yg-2Xp" secondAttribute="centerY" id="M3h-wx-yEd"/>
+                    <constraint firstItem="m0e-A0-4xr" firstAttribute="leading" secondItem="DmQ-zY-S2Y" secondAttribute="trailing" constant="12" id="adH-QK-Zv1"/>
+                    <constraint firstItem="DmQ-zY-S2Y" firstAttribute="centerY" secondItem="bDg-yg-2Xp" secondAttribute="centerY" id="rwc-Bq-RXO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="n5I-wf-Vjh"/>
+            <connections>
+                <outlet property="imgv_call" destination="CaZ-Lb-pcM" id="XrR-Fg-3CP"/>
+                <outlet property="imgv_in_out" destination="vQk-q6-SdN" id="YBc-0t-2WC"/>
+                <outlet property="imgv_person" destination="DmQ-zY-S2Y" id="JDG-le-iSl"/>
+                <outlet property="lbl_name" destination="m0e-A0-4xr" id="wFH-95-zkZ"/>
+            </connections>
+            <point key="canvasLocation" x="44.20289855072464" y="93.75"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="DmQ-zY-S2Y">
+            <size key="intrinsicContentSize" width="55" height="55"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="call_in_sample" width="55" height="55"/>
+        <image name="cam_on" width="24" height="24"/>
+        <image name="mic_on" width="24" height="24"/>
+    </resources>
+</document>

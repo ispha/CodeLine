@@ -40,6 +40,9 @@
                                 <constraint firstAttribute="width" secondItem="Big-VN-SG7" secondAttribute="height" multiplier="1:1" id="csH-ft-D4g"/>
                             </constraints>
                             <state key="normal" backgroundImage="back_en"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="fOf-D8-jRa"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sayed Al-Sheikh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u7k-zr-eeR">
                             <rect key="frame" x="127" y="34.5" width="113.5" height="19"/>
@@ -156,7 +159,7 @@
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uc1-7M-w6b" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="278.5" width="414" height="633.5"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVg-uJ-RiP" customClass="DesignableUIView" customModule="Belo" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVg-uJ-RiP" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
                             <rect key="frame" x="14" y="50" width="386" height="55"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Occasions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ES7-p1-427">
@@ -183,7 +186,7 @@
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UF4-OU-xdG" customClass="DesignableUIView" customModule="Belo" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UF4-OU-xdG" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
                             <rect key="frame" x="14" y="164" width="386" height="55"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="date_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Dpa-Dg-5lG">
