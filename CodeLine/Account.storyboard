@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Security Code View Controller-->
         <scene sceneID="pyX-uo-VLp">
@@ -1091,9 +1096,8 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="pxl-L0-1nw"/>
                                         </constraints>
-                                        <state key="normal" title="Chat Now">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                        <state key="normal" title="Chat Now"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="15"/>
@@ -1211,7 +1215,7 @@
             <size key="intrinsicContentSize" width="75" height="30"/>
         </designable>
         <designable name="JTZ-tL-Nhm">
-            <size key="intrinsicContentSize" width="67" height="30"/>
+            <size key="intrinsicContentSize" width="63" height="29"/>
         </designable>
         <designable name="bT1-Ci-pUN">
             <size key="intrinsicContentSize" width="107" height="30"/>

@@ -43,14 +43,24 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic_on" translatesAutoresizingMaskIntoConstraints="NO" id="vQk-q6-SdN">
                         <rect key="frame" x="267" y="27" width="24" height="24"/>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dG-Go-J1q">
+                        <rect key="frame" x="8.5" y="77.5" width="320" height="0.5"/>
+                        <color key="backgroundColor" cyan="0.19998288154602051" magenta="0.14381580021646287" yellow="0.0" black="0.33913093065693428" alpha="0.19024884259259259" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="Qm2-qA-sdp"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="CaZ-Lb-pcM" firstAttribute="leading" secondItem="vQk-q6-SdN" secondAttribute="trailing" constant="8" id="3YX-Gq-Xpz"/>
+                    <constraint firstAttribute="bottom" secondItem="6dG-Go-J1q" secondAttribute="bottom" id="5Dg-IY-31m"/>
                     <constraint firstItem="m0e-A0-4xr" firstAttribute="centerY" secondItem="DmQ-zY-S2Y" secondAttribute="centerY" id="8wA-va-MiC"/>
+                    <constraint firstItem="6dG-Go-J1q" firstAttribute="centerX" secondItem="bDg-yg-2Xp" secondAttribute="centerX" id="Fnu-iN-Dyd"/>
                     <constraint firstItem="DmQ-zY-S2Y" firstAttribute="leading" secondItem="bDg-yg-2Xp" secondAttribute="leading" constant="12" id="JAB-3W-Hai"/>
                     <constraint firstAttribute="trailing" secondItem="CaZ-Lb-pcM" secondAttribute="trailing" constant="14" id="JjF-h6-KhQ"/>
                     <constraint firstItem="vQk-q6-SdN" firstAttribute="centerY" secondItem="m0e-A0-4xr" secondAttribute="centerY" id="LLH-8o-bpc"/>
                     <constraint firstItem="CaZ-Lb-pcM" firstAttribute="centerY" secondItem="bDg-yg-2Xp" secondAttribute="centerY" id="M3h-wx-yEd"/>
+                    <constraint firstItem="6dG-Go-J1q" firstAttribute="width" secondItem="bDg-yg-2Xp" secondAttribute="width" multiplier="0.95" id="MWJ-bA-vv3"/>
                     <constraint firstItem="m0e-A0-4xr" firstAttribute="leading" secondItem="DmQ-zY-S2Y" secondAttribute="trailing" constant="12" id="adH-QK-Zv1"/>
                     <constraint firstItem="DmQ-zY-S2Y" firstAttribute="centerY" secondItem="bDg-yg-2Xp" secondAttribute="centerY" id="rwc-Bq-RXO"/>
                 </constraints>

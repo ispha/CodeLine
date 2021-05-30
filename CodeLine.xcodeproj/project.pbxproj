@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2416508D2663F49300D836CE /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416508B2663F49300D836CE /* GroupViewController.swift */; };
+		2416508E2663F49300D836CE /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2416508C2663F49300D836CE /* GroupViewController.xib */; };
+		2416509426641EF400D836CE /* SwitchAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416509226641EF400D836CE /* SwitchAccountsViewController.swift */; };
+		2416509526641EF400D836CE /* SwitchAccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2416509326641EF400D836CE /* SwitchAccountsViewController.xib */; };
 		2443B15F2661342200B86E00 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443B15D2661342200B86E00 /* ProjectDetailsViewController.swift */; };
 		2443B1602661342200B86E00 /* ProjectDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2443B15E2661342200B86E00 /* ProjectDetailsViewController.xib */; };
 		2443B16B2661522500B86E00 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443B16A2661522500B86E00 /* LanguageViewController.swift */; };
@@ -14,6 +18,8 @@
 		2443B17226619A5200B86E00 /* OccasionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2443B17026619A5200B86E00 /* OccasionsViewController.xib */; };
 		2443B1782661A2D400B86E00 /* OccasionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */; };
 		2443B1792661A2D400B86E00 /* OccasionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */; };
+		246820C12663E3CB00AFA155 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */; };
+		246820C22663E3CB00AFA155 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */; };
 		2473CB13265C643300AC3426 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */; };
 		2473CB14265C643300AC3426 /* OnBoardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2473CB12265C643300AC3426 /* OnBoardingCollectionViewCell.xib */; };
 		2473CB19265C73AA00AC3426 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473CB18265C73AA00AC3426 /* OnBoardingViewController.swift */; };
@@ -40,8 +46,8 @@
 		24AA5F4E265EF66E00663FBF /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F4D265EF66E00663FBF /* Account.storyboard */; };
 		24AA5F6B265F037F00663FBF /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F69265F037F00663FBF /* CallsViewController.swift */; };
 		24AA5F6C265F037F00663FBF /* CallsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F6A265F037F00663FBF /* CallsViewController.xib */; };
-		24AA5F72265F039800663FBF /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F70265F039800663FBF /* ConversationViewController.swift */; };
-		24AA5F73265F039800663FBF /* ConversationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F71265F039800663FBF /* ConversationViewController.xib */; };
+		24AA5F72265F039800663FBF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F70265F039800663FBF /* ContactsViewController.swift */; };
+		24AA5F73265F039800663FBF /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F71265F039800663FBF /* ContactsViewController.xib */; };
 		24AA5F79265F03AA00663FBF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F77265F03AA00663FBF /* ProfileViewController.swift */; };
 		24AA5F7A265F03AA00663FBF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F78265F03AA00663FBF /* ProfileViewController.xib */; };
 		24AA5F85265F040000663FBF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F83265F040000663FBF /* MessagesViewController.swift */; };
@@ -122,6 +128,10 @@
 /* Begin PBXFileReference section */
 		09B22C2CDBAD589760AEC292 /* Pods-CodeLine-CodeLineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLine-CodeLineUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeLine-CodeLineUITests/Pods-CodeLine-CodeLineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		11D8412ED9A0FDE8C16A507A /* Pods-CodeLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLineTests.release.xcconfig"; path = "Target Support Files/Pods-CodeLineTests/Pods-CodeLineTests.release.xcconfig"; sourceTree = "<group>"; };
+		2416508B2663F49300D836CE /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		2416508C2663F49300D836CE /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		2416509226641EF400D836CE /* SwitchAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAccountsViewController.swift; sourceTree = "<group>"; };
+		2416509326641EF400D836CE /* SwitchAccountsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchAccountsViewController.xib; sourceTree = "<group>"; };
 		2443B15D2661342200B86E00 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
 		2443B15E2661342200B86E00 /* ProjectDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectDetailsViewController.xib; sourceTree = "<group>"; };
 		2443B16A2661522500B86E00 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +139,8 @@
 		2443B17026619A5200B86E00 /* OccasionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OccasionsViewController.xib; sourceTree = "<group>"; };
 		2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccasionsTableViewCell.swift; sourceTree = "<group>"; };
 		2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OccasionsTableViewCell.xib; sourceTree = "<group>"; };
+		246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 		2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		2473CB12265C643300AC3426 /* OnBoardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingCollectionViewCell.xib; sourceTree = "<group>"; };
 		2473CB18265C73AA00AC3426 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -155,8 +167,8 @@
 		24AA5F4D265EF66E00663FBF /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
 		24AA5F69265F037F00663FBF /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
 		24AA5F6A265F037F00663FBF /* CallsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallsViewController.xib; sourceTree = "<group>"; };
-		24AA5F70265F039800663FBF /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
-		24AA5F71265F039800663FBF /* ConversationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationViewController.xib; sourceTree = "<group>"; };
+		24AA5F70265F039800663FBF /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		24AA5F71265F039800663FBF /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
 		24AA5F77265F03AA00663FBF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		24AA5F78265F03AA00663FBF /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		24AA5F83265F040000663FBF /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -337,8 +349,8 @@
 				24AA5F4D265EF66E00663FBF /* Account.storyboard */,
 				24AA5F69265F037F00663FBF /* CallsViewController.swift */,
 				24AA5F6A265F037F00663FBF /* CallsViewController.xib */,
-				24AA5F70265F039800663FBF /* ConversationViewController.swift */,
-				24AA5F71265F039800663FBF /* ConversationViewController.xib */,
+				24AA5F70265F039800663FBF /* ContactsViewController.swift */,
+				24AA5F71265F039800663FBF /* ContactsViewController.xib */,
 				24AA5F77265F03AA00663FBF /* ProfileViewController.swift */,
 				24AA5F78265F03AA00663FBF /* ProfileViewController.xib */,
 				24AA5F83265F040000663FBF /* MessagesViewController.swift */,
@@ -377,6 +389,12 @@
 				24B7E00F26631637007965C1 /* ParticipantsViewController.xib */,
 				24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */,
 				24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */,
+				246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */,
+				246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */,
+				2416508B2663F49300D836CE /* GroupViewController.swift */,
+				2416508C2663F49300D836CE /* GroupViewController.xib */,
+				2416509226641EF400D836CE /* SwitchAccountsViewController.swift */,
+				2416509326641EF400D836CE /* SwitchAccountsViewController.xib */,
 			);
 			path = CodeLine;
 			sourceTree = "<group>";
@@ -533,7 +551,7 @@
 				24AA5F03265EBDEF00663FBF /* Roboto-BoldItalic.ttf in Resources */,
 				24AA5F02265EBDEF00663FBF /* Roboto-MediumItalic.ttf in Resources */,
 				24AA5F4E265EF66E00663FBF /* Account.storyboard in Resources */,
-				24AA5F73265F039800663FBF /* ConversationViewController.xib in Resources */,
+				24AA5F73265F039800663FBF /* ContactsViewController.xib in Resources */,
 				24AA5EFF265EBDEF00663FBF /* Roboto-Thin.ttf in Resources */,
 				24AA5EDC265EAA5600663FBF /* MessageAddCollectionViewCell.xib in Resources */,
 				24AA5F00265EBDEF00663FBF /* Roboto-Bold.ttf in Resources */,
@@ -554,6 +572,7 @@
 				24AA5F7A265F03AA00663FBF /* ProfileViewController.xib in Resources */,
 				2443B17226619A5200B86E00 /* OccasionsViewController.xib in Resources */,
 				24FEC5E32660077100A34782 /* TextTableViewCell_ToMe.xib in Resources */,
+				2416508E2663F49300D836CE /* GroupViewController.xib in Resources */,
 				24AA5EFC265EBDEF00663FBF /* Roboto-Black.ttf in Resources */,
 				24E2A8D6265B1DCF002C8039 /* Main.storyboard in Resources */,
 				24AA5EE8265EBBA100663FBF /* MessageTableViewCell.xib in Resources */,
@@ -561,8 +580,10 @@
 				24AA5F86265F040000663FBF /* MessagesViewController.xib in Resources */,
 				24FEC61C26606A5E00A34782 /* GalleryCollectionViewCell.xib in Resources */,
 				24AA5EFD265EBDEF00663FBF /* Roboto-Medium.ttf in Resources */,
+				2416509526641EF400D836CE /* SwitchAccountsViewController.xib in Resources */,
 				24AA5F04265EBDEF00663FBF /* Roboto-Regular.ttf in Resources */,
 				24AA5EFB265EBDEF00663FBF /* Roboto-BlackItalic.ttf in Resources */,
+				246820C22663E3CB00AFA155 /* ContactTableViewCell.xib in Resources */,
 				2443B1602661342200B86E00 /* ProjectDetailsViewController.xib in Resources */,
 				24FEC60426600DAD00A34782 /* ChatViewController.xib in Resources */,
 				24B7DFFC26630376007965C1 /* CallingViewController.xib in Resources */,
@@ -700,6 +721,9 @@
 				24E2A909265B24C8002C8039 /* Constants.swift in Sources */,
 				2443B17126619A5200B86E00 /* OccasionsViewController.swift in Sources */,
 				24E2A928265B26E7002C8039 /* UIView+Extension.swift in Sources */,
+				2416509426641EF400D836CE /* SwitchAccountsViewController.swift in Sources */,
+				246820C12663E3CB00AFA155 /* ContactTableViewCell.swift in Sources */,
+				2416508D2663F49300D836CE /* GroupViewController.swift in Sources */,
 				24AA5F6B265F037F00663FBF /* CallsViewController.swift in Sources */,
 				24FEC60326600DAD00A34782 /* ChatViewController.swift in Sources */,
 				24E2A945265B2A25002C8039 /* RootWindowController.swift in Sources */,
@@ -708,7 +732,7 @@
 				24B7E01026631637007965C1 /* ParticipantsViewController.swift in Sources */,
 				24FEC5DB2660065400A34782 /* TextTableViewCell_FromMe.swift in Sources */,
 				24E2A927265B26E7002C8039 /* UIScrollView+Extension.swift in Sources */,
-				24AA5F72265F039800663FBF /* ConversationViewController.swift in Sources */,
+				24AA5F72265F039800663FBF /* ContactsViewController.swift in Sources */,
 				24FEC61126603AA800A34782 /* UserProfileViewController.swift in Sources */,
 				24B7E017266317F9007965C1 /* ParticipantaTableViewCell.swift in Sources */,
 				24FEC5CE2660021600A34782 /* AudioTableViewCell_FromMe.swift in Sources */,

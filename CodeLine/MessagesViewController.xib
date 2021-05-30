@@ -33,13 +33,13 @@
                     <rect key="frame" x="0.0" y="-6" width="414" height="918"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Massages" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgh-zC-IY2">
-                    <rect key="frame" x="17" y="58" width="78.5" height="20"/>
+                    <rect key="frame" x="17" y="108" width="78.5" height="20"/>
                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </label>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAK-c0-058">
-                    <rect key="frame" x="346" y="54" width="48" height="30"/>
+                    <rect key="frame" x="346" y="103" width="48" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48" id="yeV-YF-8B8"/>
                     </constraints>
@@ -48,7 +48,7 @@
                     </state>
                 </button>
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lw0-7U-AGw" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                    <rect key="frame" x="20.5" y="44" width="317.5" height="50"/>
+                    <rect key="frame" x="20.5" y="93" width="317.5" height="50"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ahmed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yb3-DH-oEW">
                             <rect key="frame" x="12" y="5" width="237.5" height="40"/>
@@ -80,8 +80,8 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="mPQ-QF-OaG">
-                    <rect key="frame" x="298" y="44" width="96" height="48"/>
+                <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="mPQ-QF-OaG">
+                    <rect key="frame" x="298" y="94" width="96" height="48"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRE-aQ-bf6">
                             <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
@@ -105,10 +105,10 @@
                     </constraints>
                 </stackView>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JR-9C-LyH" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="218" width="414" height="694"/>
+                    <rect key="frame" x="0.0" y="268" width="414" height="644"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="81" estimatedRowHeight="81" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mVX-cE-7Ft">
-                            <rect key="frame" x="0.0" y="50" width="414" height="624"/>
+                            <rect key="frame" x="0.0" y="50" width="414" height="574"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <connections>
                                 <outlet property="dataSource" destination="-1" id="fIH-IP-Khf"/>
@@ -130,7 +130,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slY-x3-k4v">
-                    <rect key="frame" x="349" y="44" width="48" height="48"/>
+                    <rect key="frame" x="349" y="94" width="48" height="48"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48" id="FLh-5b-7sI"/>
                         <constraint firstAttribute="width" secondItem="slY-x3-k4v" secondAttribute="height" multiplier="1:1" id="bxb-88-Uk3"/>
@@ -138,7 +138,7 @@
                     <state key="normal" backgroundImage="search"/>
                 </button>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="WvJ-tt-6Ca">
-                    <rect key="frame" x="0.0" y="103" width="414" height="90"/>
+                    <rect key="frame" x="0.0" y="153" width="414" height="90"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="90" id="1fM-Wc-vKn"/>
@@ -240,10 +240,11 @@ Delete This Message</string>
                 <constraint firstItem="rz4-iE-YUY" firstAttribute="top" secondItem="HKR-XA-igc" secondAttribute="top" constant="-50" id="2AS-4j-naK"/>
                 <constraint firstItem="mPQ-QF-OaG" firstAttribute="centerY" secondItem="slY-x3-k4v" secondAttribute="centerY" id="2V2-uf-JcH"/>
                 <constraint firstItem="HKR-XA-igc" firstAttribute="trailing" secondItem="slY-x3-k4v" secondAttribute="trailing" constant="17" id="4b1-V0-YFx"/>
+                <constraint firstItem="lw0-7U-AGw" firstAttribute="centerY" secondItem="slY-x3-k4v" secondAttribute="centerY" id="52V-xS-ADj"/>
                 <constraint firstItem="rz4-iE-YUY" firstAttribute="leading" secondItem="HKR-XA-igc" secondAttribute="leading" id="Cnz-c3-vbC"/>
                 <constraint firstItem="HKR-XA-igc" firstAttribute="trailing" secondItem="rz4-iE-YUY" secondAttribute="trailing" id="I2A-7G-DI1"/>
                 <constraint firstItem="HKR-XA-igc" firstAttribute="bottom" secondItem="rz4-iE-YUY" secondAttribute="bottom" constant="-50" id="Lut-gw-IAu"/>
-                <constraint firstItem="slY-x3-k4v" firstAttribute="top" secondItem="HKR-XA-igc" secondAttribute="top" id="M2m-Il-uIk"/>
+                <constraint firstItem="slY-x3-k4v" firstAttribute="top" secondItem="HKR-XA-igc" secondAttribute="top" constant="50" id="M2m-Il-uIk"/>
                 <constraint firstItem="WvJ-tt-6Ca" firstAttribute="top" secondItem="Rgh-zC-IY2" secondAttribute="bottom" constant="25" id="QeB-nk-4Kx"/>
                 <constraint firstItem="lw0-7U-AGw" firstAttribute="leading" secondItem="HKR-XA-igc" secondAttribute="leading" constant="20.5" id="RMH-De-OjF"/>
                 <constraint firstItem="HKR-XA-igc" firstAttribute="bottom" secondItem="vqu-P4-Gdf" secondAttribute="bottom" constant="-100" id="Rzn-b9-cOG"/>
@@ -260,7 +261,6 @@ Delete This Message</string>
                 <constraint firstItem="HKR-XA-igc" firstAttribute="trailing" secondItem="vqu-P4-Gdf" secondAttribute="trailing" id="mvp-98-Wi8"/>
                 <constraint firstItem="8JR-9C-LyH" firstAttribute="centerX" secondItem="HKR-XA-igc" secondAttribute="centerX" id="q62-Sr-EN6"/>
                 <constraint firstItem="8JR-9C-LyH" firstAttribute="width" secondItem="Y3d-Ad-V17" secondAttribute="width" id="qHL-4l-jlJ"/>
-                <constraint firstItem="lw0-7U-AGw" firstAttribute="top" secondItem="HKR-XA-igc" secondAttribute="top" id="qzZ-GL-Nq0"/>
                 <constraint firstItem="Rgh-zC-IY2" firstAttribute="centerY" secondItem="slY-x3-k4v" secondAttribute="centerY" id="uMw-KM-fUV"/>
                 <constraint firstItem="SAK-c0-058" firstAttribute="centerY" secondItem="lw0-7U-AGw" secondAttribute="centerY" id="xQN-B1-YnY"/>
             </constraints>

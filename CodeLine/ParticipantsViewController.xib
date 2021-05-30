@@ -40,7 +40,7 @@
                                 <action selector="backAction:" destination="-1" eventType="touchUpInside" id="KFp-6L-f6M"/>
                             </connections>
                         </button>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="81" estimatedRowHeight="81" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="22i-VY-m95">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="81" estimatedRowHeight="81" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="22i-VY-m95">
                             <rect key="frame" x="0.0" y="80" width="414" height="718"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <connections>

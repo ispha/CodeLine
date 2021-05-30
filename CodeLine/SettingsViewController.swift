@@ -14,7 +14,13 @@ class SettingsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func actionOfbtnSwitchAccounts(_ sender: Any) {
+        let projectDetailsViewController  = SwitchAccountsViewController(nibName: "SwitchAccountsViewController", bundle: nil)
+        projectDetailsViewController.modalPresentationStyle = .fullScreen
+         self.present(projectDetailsViewController, animated: true, completion: {
+             HelpingMethods.showHideTabBar(flag: false)
+         })
+    }
 
     /*
     // MARK: - Navigation
