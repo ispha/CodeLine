@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddNewCollectionViewCell" id="Ehy-NR-23h" customClass="AddNewCollectionViewCell" customModule="CodeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9d-SY-Kdv" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="157" height="149"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_new" translatesAutoresizingMaskIntoConstraints="NO" id="iwK-hV-Izc" customClass="DesignableUIImageView" customModule="CodeLine" customModuleProvider="target">
+                                <rect key="frame" x="68" y="49" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iwK-hV-Izc" secondAttribute="height" multiplier="1:1" id="CaB-LT-psJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xek-c3-Dg6">
+                                <rect key="frame" x="52.5" y="82" width="52" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.45841783289999999" green="0.49368238450000002" blue="0.82187980410000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="iwK-hV-Izc" firstAttribute="centerY" secondItem="C9d-SY-Kdv" secondAttribute="centerY" multiplier="0.8" id="Go8-f8-JKW"/>
+                            <constraint firstItem="xek-c3-Dg6" firstAttribute="centerX" secondItem="iwK-hV-Izc" secondAttribute="centerX" id="bUk-3k-I3M"/>
+                            <constraint firstItem="xek-c3-Dg6" firstAttribute="top" secondItem="iwK-hV-Izc" secondAttribute="bottom" constant="12" id="fcJ-Wl-Cwf"/>
+                            <constraint firstItem="iwK-hV-Izc" firstAttribute="centerX" secondItem="C9d-SY-Kdv" secondAttribute="centerX" id="xD9-e2-vGx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="C9d-SY-Kdv" firstAttribute="top" secondItem="Ehy-NR-23h" secondAttribute="top" constant="8" id="3AW-GO-KRs"/>
+                <constraint firstAttribute="trailing" secondItem="C9d-SY-Kdv" secondAttribute="trailing" constant="8" id="KGD-M6-iUb"/>
+                <constraint firstItem="C9d-SY-Kdv" firstAttribute="leading" secondItem="Ehy-NR-23h" secondAttribute="leading" constant="8" id="Phd-E0-fWy"/>
+                <constraint firstAttribute="bottom" secondItem="C9d-SY-Kdv" secondAttribute="bottom" constant="8" id="Y3t-Lz-RI7"/>
+            </constraints>
+            <size key="customSize" width="173" height="165"/>
+            <connections>
+                <outlet property="imgv" destination="iwK-hV-Izc" id="PcJ-7Z-vLT"/>
+                <outlet property="lblTitle" destination="xek-c3-Dg6" id="UM8-oo-IFo"/>
+            </connections>
+            <point key="canvasLocation" x="100.72463768115942" y="124.21875"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="iwK-hV-Izc">
+            <size key="intrinsicContentSize" width="21" height="21"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="add_new" width="21" height="21"/>
+    </resources>
+</document>

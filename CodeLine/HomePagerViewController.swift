@@ -25,8 +25,8 @@ class HomePagerViewController: UIPageViewController , UIPageViewControllerDelega
     private lazy var thirdVC: ContactsViewController = {
           return ContactsViewController(nibName: "ContactsViewController", bundle: nil)
       }()
-      private lazy var fourthVC: ProfileViewController = {
-          return ProfileViewController(nibName: "ProfileViewController", bundle: nil)
+      private lazy var fourthVC: MyProfileViewController = {
+          return MyProfileViewController(nibName: "MyProfileViewController", bundle: nil)
       }()
       private lazy var fifthVC: SettingsViewController
           = {

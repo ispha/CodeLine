@@ -18,6 +18,14 @@
 		2443B17226619A5200B86E00 /* OccasionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2443B17026619A5200B86E00 /* OccasionsViewController.xib */; };
 		2443B1782661A2D400B86E00 /* OccasionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */; };
 		2443B1792661A2D400B86E00 /* OccasionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */; };
+		24456E632665446600E105CC /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24456E612665446600E105CC /* MyProfileViewController.swift */; };
+		24456E642665446600E105CC /* MyProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24456E622665446600E105CC /* MyProfileViewController.xib */; };
+		24456E6A26654A3500E105CC /* OccasionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24456E6826654A3500E105CC /* OccasionCollectionViewCell.swift */; };
+		24456E6B26654A3500E105CC /* OccasionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24456E6926654A3500E105CC /* OccasionCollectionViewCell.xib */; };
+		24456E7426656D4200E105CC /* AddNewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24456E7226656D4200E105CC /* AddNewCollectionViewCell.swift */; };
+		24456E7526656D4200E105CC /* AddNewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24456E7326656D4200E105CC /* AddNewCollectionViewCell.xib */; };
+		24456E7B2665A57B00E105CC /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24456E792665A57B00E105CC /* EditProfileViewController.swift */; };
+		24456E7C2665A57B00E105CC /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24456E7A2665A57B00E105CC /* EditProfileViewController.xib */; };
 		246820C12663E3CB00AFA155 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */; };
 		246820C22663E3CB00AFA155 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */; };
 		2473CB13265C643300AC3426 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */; };
@@ -48,8 +56,6 @@
 		24AA5F6C265F037F00663FBF /* CallsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F6A265F037F00663FBF /* CallsViewController.xib */; };
 		24AA5F72265F039800663FBF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F70265F039800663FBF /* ContactsViewController.swift */; };
 		24AA5F73265F039800663FBF /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F71265F039800663FBF /* ContactsViewController.xib */; };
-		24AA5F79265F03AA00663FBF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F77265F03AA00663FBF /* ProfileViewController.swift */; };
-		24AA5F7A265F03AA00663FBF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F78265F03AA00663FBF /* ProfileViewController.xib */; };
 		24AA5F85265F040000663FBF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F83265F040000663FBF /* MessagesViewController.swift */; };
 		24AA5F86265F040000663FBF /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5F84265F040000663FBF /* MessagesViewController.xib */; };
 		24AA5F8F265F054D00663FBF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA5F8D265F054D00663FBF /* SettingsViewController.swift */; };
@@ -139,6 +145,14 @@
 		2443B17026619A5200B86E00 /* OccasionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OccasionsViewController.xib; sourceTree = "<group>"; };
 		2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccasionsTableViewCell.swift; sourceTree = "<group>"; };
 		2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OccasionsTableViewCell.xib; sourceTree = "<group>"; };
+		24456E612665446600E105CC /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		24456E622665446600E105CC /* MyProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProfileViewController.xib; sourceTree = "<group>"; };
+		24456E6826654A3500E105CC /* OccasionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccasionCollectionViewCell.swift; sourceTree = "<group>"; };
+		24456E6926654A3500E105CC /* OccasionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OccasionCollectionViewCell.xib; sourceTree = "<group>"; };
+		24456E7226656D4200E105CC /* AddNewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCollectionViewCell.swift; sourceTree = "<group>"; };
+		24456E7326656D4200E105CC /* AddNewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewCollectionViewCell.xib; sourceTree = "<group>"; };
+		24456E792665A57B00E105CC /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		24456E7A2665A57B00E105CC /* EditProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
 		246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 		2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -169,8 +183,6 @@
 		24AA5F6A265F037F00663FBF /* CallsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallsViewController.xib; sourceTree = "<group>"; };
 		24AA5F70265F039800663FBF /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		24AA5F71265F039800663FBF /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
-		24AA5F77265F03AA00663FBF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		24AA5F78265F03AA00663FBF /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		24AA5F83265F040000663FBF /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		24AA5F84265F040000663FBF /* MessagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
 		24AA5F8D265F054D00663FBF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -351,8 +363,6 @@
 				24AA5F6A265F037F00663FBF /* CallsViewController.xib */,
 				24AA5F70265F039800663FBF /* ContactsViewController.swift */,
 				24AA5F71265F039800663FBF /* ContactsViewController.xib */,
-				24AA5F77265F03AA00663FBF /* ProfileViewController.swift */,
-				24AA5F78265F03AA00663FBF /* ProfileViewController.xib */,
 				24AA5F83265F040000663FBF /* MessagesViewController.swift */,
 				24AA5F84265F040000663FBF /* MessagesViewController.xib */,
 				24AA5F8D265F054D00663FBF /* SettingsViewController.swift */,
@@ -395,6 +405,14 @@
 				2416508C2663F49300D836CE /* GroupViewController.xib */,
 				2416509226641EF400D836CE /* SwitchAccountsViewController.swift */,
 				2416509326641EF400D836CE /* SwitchAccountsViewController.xib */,
+				24456E612665446600E105CC /* MyProfileViewController.swift */,
+				24456E622665446600E105CC /* MyProfileViewController.xib */,
+				24456E6826654A3500E105CC /* OccasionCollectionViewCell.swift */,
+				24456E6926654A3500E105CC /* OccasionCollectionViewCell.xib */,
+				24456E7226656D4200E105CC /* AddNewCollectionViewCell.swift */,
+				24456E7326656D4200E105CC /* AddNewCollectionViewCell.xib */,
+				24456E792665A57B00E105CC /* EditProfileViewController.swift */,
+				24456E7A2665A57B00E105CC /* EditProfileViewController.xib */,
 			);
 			path = CodeLine;
 			sourceTree = "<group>";
@@ -550,14 +568,17 @@
 			files = (
 				24AA5F03265EBDEF00663FBF /* Roboto-BoldItalic.ttf in Resources */,
 				24AA5F02265EBDEF00663FBF /* Roboto-MediumItalic.ttf in Resources */,
+				24456E642665446600E105CC /* MyProfileViewController.xib in Resources */,
 				24AA5F4E265EF66E00663FBF /* Account.storyboard in Resources */,
 				24AA5F73265F039800663FBF /* ContactsViewController.xib in Resources */,
+				24456E7526656D4200E105CC /* AddNewCollectionViewCell.xib in Resources */,
 				24AA5EFF265EBDEF00663FBF /* Roboto-Thin.ttf in Resources */,
 				24AA5EDC265EAA5600663FBF /* MessageAddCollectionViewCell.xib in Resources */,
 				24AA5F00265EBDEF00663FBF /* Roboto-Bold.ttf in Resources */,
 				24E2A8DB265B1DD3002C8039 /* LaunchScreen.storyboard in Resources */,
 				24B7E00326630422007965C1 /* RingingViewController.xib in Resources */,
 				24B7E01126631637007965C1 /* ParticipantsViewController.xib in Resources */,
+				24456E7C2665A57B00E105CC /* EditProfileViewController.xib in Resources */,
 				2473CB14265C643300AC3426 /* OnBoardingCollectionViewCell.xib in Resources */,
 				24AA5F90265F054D00663FBF /* SettingsViewController.xib in Resources */,
 				24AA5F01265EBDEF00663FBF /* Roboto-Italic.ttf in Resources */,
@@ -569,13 +590,13 @@
 				2443B1792661A2D400B86E00 /* OccasionsTableViewCell.xib in Resources */,
 				24AA5EF9265EBDEF00663FBF /* Roboto-ThinItalic.ttf in Resources */,
 				24AA5F6C265F037F00663FBF /* CallsViewController.xib in Resources */,
-				24AA5F7A265F03AA00663FBF /* ProfileViewController.xib in Resources */,
 				2443B17226619A5200B86E00 /* OccasionsViewController.xib in Resources */,
 				24FEC5E32660077100A34782 /* TextTableViewCell_ToMe.xib in Resources */,
 				2416508E2663F49300D836CE /* GroupViewController.xib in Resources */,
 				24AA5EFC265EBDEF00663FBF /* Roboto-Black.ttf in Resources */,
 				24E2A8D6265B1DCF002C8039 /* Main.storyboard in Resources */,
 				24AA5EE8265EBBA100663FBF /* MessageTableViewCell.xib in Resources */,
+				24456E6B26654A3500E105CC /* OccasionCollectionViewCell.xib in Resources */,
 				24B7E00A2663043D007965C1 /* InCallViewController.xib in Resources */,
 				24AA5F86265F040000663FBF /* MessagesViewController.xib in Resources */,
 				24FEC61C26606A5E00A34782 /* GalleryCollectionViewCell.xib in Resources */,
@@ -740,10 +761,11 @@
 				24E2A929265B26E7002C8039 /* UITableViewCell+Extension.swift in Sources */,
 				24B7DFFB26630376007965C1 /* CallingViewController.swift in Sources */,
 				24E2A8D3265B1DCF002C8039 /* ViewController.swift in Sources */,
-				24AA5F79265F03AA00663FBF /* ProfileViewController.swift in Sources */,
 				24E2A92B265B26E7002C8039 /* Extensions.swift in Sources */,
 				24B7DFF42662C51F007965C1 /* CallsTableViewCell.swift in Sources */,
 				2473CB19265C73AA00AC3426 /* OnBoardingViewController.swift in Sources */,
+				24456E632665446600E105CC /* MyProfileViewController.swift in Sources */,
+				24456E7B2665A57B00E105CC /* EditProfileViewController.swift in Sources */,
 				24B7E00226630422007965C1 /* RingingViewController.swift in Sources */,
 				24E2A92E265B26E7002C8039 /* UICollectionView+Extension.swift in Sources */,
 				24B7E0092663043D007965C1 /* InCallViewController.swift in Sources */,
@@ -752,9 +774,11 @@
 				24FEC5E22660077100A34782 /* TextTableViewCell_ToMe.swift in Sources */,
 				24E2A8CF265B1DCF002C8039 /* AppDelegate.swift in Sources */,
 				2443B16B2661522500B86E00 /* LanguageViewController.swift in Sources */,
+				24456E6A26654A3500E105CC /* OccasionCollectionViewCell.swift in Sources */,
 				24AA5EDB265EAA5600663FBF /* MessageAddCollectionViewCell.swift in Sources */,
 				24AA5F46265EF5AA00663FBF /* HomePagerViewController.swift in Sources */,
 				24FEC61B26606A5E00A34782 /* GalleryCollectionViewCell.swift in Sources */,
+				24456E7426656D4200E105CC /* AddNewCollectionViewCell.swift in Sources */,
 				24AA5F8F265F054D00663FBF /* SettingsViewController.swift in Sources */,
 				2443B15F2661342200B86E00 /* ProjectDetailsViewController.swift in Sources */,
 				24E2A92A265B26E7002C8039 /* Storyboards.swift in Sources */,

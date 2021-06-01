@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OccasionCollectionViewCell" id="cnz-Za-R5W" customClass="OccasionCollectionViewCell" customModule="CodeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZ6-Ip-uun" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="157" height="149"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="occasion_icon_1" translatesAutoresizingMaskIntoConstraints="NO" id="2n5-dD-zpQ" customClass="DesignableUIImageView" customModule="CodeLine" customModuleProvider="target">
+                                <rect key="frame" x="47" y="10" width="63" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2n5-dD-zpQ" secondAttribute="height" multiplier="1:1" id="Mxk-Qb-P2V"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WG0-oT-2MD">
+                                <rect key="frame" x="52.5" y="81" width="52" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Jun 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSB-OL-bEu">
+                                <rect key="frame" x="45.5" y="105.5" width="66.5" height="14.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2n5-dD-zpQ" firstAttribute="width" secondItem="KZ6-Ip-uun" secondAttribute="width" multiplier="0.4" id="LqK-t1-21t"/>
+                            <constraint firstItem="2n5-dD-zpQ" firstAttribute="top" secondItem="KZ6-Ip-uun" secondAttribute="top" constant="10" id="Lun-fi-Wop"/>
+                            <constraint firstItem="qSB-OL-bEu" firstAttribute="centerX" secondItem="WG0-oT-2MD" secondAttribute="centerX" id="Mg9-xW-8WY"/>
+                            <constraint firstItem="qSB-OL-bEu" firstAttribute="top" secondItem="WG0-oT-2MD" secondAttribute="bottom" constant="8" id="Wnn-bL-sVX"/>
+                            <constraint firstItem="WG0-oT-2MD" firstAttribute="centerX" secondItem="2n5-dD-zpQ" secondAttribute="centerX" id="aaM-f4-ISR"/>
+                            <constraint firstItem="WG0-oT-2MD" firstAttribute="top" secondItem="2n5-dD-zpQ" secondAttribute="bottom" constant="8" id="wKY-bJ-Uxl"/>
+                            <constraint firstItem="2n5-dD-zpQ" firstAttribute="centerX" secondItem="KZ6-Ip-uun" secondAttribute="centerX" id="zae-BJ-d0f"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KZ6-Ip-uun" secondAttribute="bottom" constant="8" id="PuJ-g3-ceP"/>
+                <constraint firstItem="KZ6-Ip-uun" firstAttribute="leading" secondItem="cnz-Za-R5W" secondAttribute="leading" constant="8" id="enb-RF-HW6"/>
+                <constraint firstAttribute="trailing" secondItem="KZ6-Ip-uun" secondAttribute="trailing" constant="8" id="leL-LI-7qh"/>
+                <constraint firstItem="KZ6-Ip-uun" firstAttribute="top" secondItem="cnz-Za-R5W" secondAttribute="top" constant="8" id="rXc-iQ-0CV"/>
+            </constraints>
+            <size key="customSize" width="173" height="165"/>
+            <connections>
+                <outlet property="imgv" destination="2n5-dD-zpQ" id="0FQ-Ot-KMw"/>
+                <outlet property="lblTitle" destination="WG0-oT-2MD" id="bfu-Nw-zJT"/>
+            </connections>
+            <point key="canvasLocation" x="100.72463768115942" y="124.21875"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="2n5-dD-zpQ">
+            <size key="intrinsicContentSize" width="32" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="occasion_icon_1" width="32" height="31"/>
+    </resources>
+</document>

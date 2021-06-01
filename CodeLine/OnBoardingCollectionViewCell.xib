@@ -37,7 +37,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fl-Q4-ROU" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
-                        <rect key="frame" x="56.5" y="584" width="262.5" height="48"/>
+                        <rect key="frame" x="17" y="584" width="341" height="48"/>
                         <color key="backgroundColor" red="0.96025902029999999" green="0.84900027509999998" blue="0.68867629770000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="48" id="Zoe-0p-oU8"/>
@@ -52,7 +52,7 @@
                         </userDefinedRuntimeAttributes>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-sD-YUp" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
-                        <rect key="frame" x="56.5" y="649.5" width="262.5" height="48"/>
+                        <rect key="frame" x="17" y="649.5" width="341" height="48"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="48" id="QdS-Jx-AaZ"/>
@@ -77,16 +77,16 @@
                 <constraint firstItem="kD2-mK-acg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AXK-HO-dO8"/>
                 <constraint firstItem="ECo-Fy-eHg" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.8" id="HWd-fs-juE"/>
                 <constraint firstItem="ECo-Fy-eHg" firstAttribute="centerX" secondItem="UyG-Y3-yCv" secondAttribute="centerX" id="STq-6e-3TJ"/>
-                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="centerX" secondItem="kD2-mK-acg" secondAttribute="centerX" id="Uc1-2e-P7d"/>
+                <constraint firstAttribute="trailing" secondItem="6Fl-Q4-ROU" secondAttribute="trailing" constant="17" id="UPU-9f-JU0"/>
                 <constraint firstAttribute="trailing" secondItem="kD2-mK-acg" secondAttribute="trailing" id="aPT-hC-tKJ"/>
                 <constraint firstItem="zaY-sD-YUp" firstAttribute="centerX" secondItem="6Fl-Q4-ROU" secondAttribute="centerX" id="aXd-ou-UpL"/>
                 <constraint firstAttribute="bottom" secondItem="zaY-sD-YUp" secondAttribute="bottom" constant="11.5" id="ddH-1j-GGN"/>
                 <constraint firstItem="zaY-sD-YUp" firstAttribute="top" secondItem="6Fl-Q4-ROU" secondAttribute="bottom" constant="17.5" id="hPB-yG-ixM"/>
                 <constraint firstAttribute="top" secondItem="kD2-mK-acg" secondAttribute="top" id="ltd-5N-27n"/>
+                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="17" id="qpk-vZ-CCU"/>
                 <constraint firstItem="6Fl-Q4-ROU" firstAttribute="top" secondItem="ECo-Fy-eHg" secondAttribute="bottom" constant="20" id="tTc-B7-Xdp"/>
                 <constraint firstItem="zaY-sD-YUp" firstAttribute="width" secondItem="6Fl-Q4-ROU" secondAttribute="width" id="u3V-mk-xBX"/>
                 <constraint firstItem="UyG-Y3-yCv" firstAttribute="centerX" secondItem="kD2-mK-acg" secondAttribute="centerX" id="v26-XA-d00"/>
-                <constraint firstItem="6Fl-Q4-ROU" firstAttribute="width" secondItem="kD2-mK-acg" secondAttribute="width" multiplier="0.7" id="ye4-0V-Pod"/>
                 <constraint firstItem="ECo-Fy-eHg" firstAttribute="top" secondItem="UyG-Y3-yCv" secondAttribute="bottom" constant="13.5" id="z1p-pa-Z7O"/>
             </constraints>
             <size key="customSize" width="375" height="709"/>

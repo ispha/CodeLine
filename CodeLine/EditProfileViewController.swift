@@ -1,20 +1,25 @@
 //
-//  ProfileViewController.swift
+//  EditProfileViewController.swift
 //  CodeLine
 //
-//  Created by ispha on 5/27/21.
+//  Created by ispha on 6/1/21.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class EditProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func closeAction(_ sender: Any) {
+        dismiss(animated: true, completion: {
+            HelpingMethods.showHideTabBar(flag: true)
+        })
+        // viewPopup.isHidden = true
+    }
 
     /*
     // MARK: - Navigation

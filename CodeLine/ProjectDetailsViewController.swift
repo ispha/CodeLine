@@ -19,8 +19,8 @@ class ProjectDetailsViewController: UIViewController {
     
     // MARK: - variables
     var panGesture = UIPanGestureRecognizer()
-    var count = 13
     var arrayOfGallImages = [UIImage]()
+    var count = 13
     var cellHeight : CGFloat = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()

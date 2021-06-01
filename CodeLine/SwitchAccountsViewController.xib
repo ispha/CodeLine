@@ -48,7 +48,7 @@
                             </connections>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5l-kJ-Po3" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
-                            <rect key="frame" x="62" y="371" width="290" height="48"/>
+                            <rect key="frame" x="17" y="371" width="380" height="48"/>
                             <color key="backgroundColor" red="0.96025902029999999" green="0.84900027509999998" blue="0.68867629770000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="48" id="KgC-Ej-BkY"/>
@@ -66,12 +66,12 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstAttribute="trailing" secondItem="J5l-kJ-Po3" secondAttribute="trailing" constant="17" id="7cb-UT-qY7"/>
                         <constraint firstItem="9uU-Zu-Iif" firstAttribute="top" secondItem="1Fu-yd-dYz" secondAttribute="top" constant="30" id="UDc-Ml-WOD"/>
+                        <constraint firstItem="J5l-kJ-Po3" firstAttribute="leading" secondItem="1Fu-yd-dYz" secondAttribute="leading" constant="17" id="YfA-0y-koU"/>
                         <constraint firstAttribute="trailing" secondItem="9uU-Zu-Iif" secondAttribute="trailing" id="cSz-hh-Szy"/>
-                        <constraint firstItem="J5l-kJ-Po3" firstAttribute="centerX" secondItem="9uU-Zu-Iif" secondAttribute="centerX" id="fXg-Ap-Y7I"/>
                         <constraint firstItem="9uU-Zu-Iif" firstAttribute="leading" secondItem="1Fu-yd-dYz" secondAttribute="leading" id="gpt-DD-WQ8"/>
                         <constraint firstItem="9uU-Zu-Iif" firstAttribute="height" secondItem="1Fu-yd-dYz" secondAttribute="height" multiplier="0.4" id="ifU-Hp-FcP"/>
-                        <constraint firstItem="J5l-kJ-Po3" firstAttribute="width" secondItem="9uU-Zu-Iif" secondAttribute="width" multiplier="0.7" id="kV8-X8-Nhu"/>
                         <constraint firstItem="J5l-kJ-Po3" firstAttribute="top" secondItem="9uU-Zu-Iif" secondAttribute="bottom" constant="20" id="v5h-ph-5JO"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>

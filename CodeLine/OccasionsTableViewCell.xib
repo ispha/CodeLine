@@ -47,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxo-oU-lqc" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
-                                <rect key="frame" x="59.5" y="85" width="276.5" height="40"/>
+                                <rect key="frame" x="17" y="85" width="361" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.75294117647058822" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="5CL-G1-h4I"/>
@@ -99,15 +99,15 @@
                         <constraints>
                             <constraint firstItem="JSo-8p-3ZG" firstAttribute="centerY" secondItem="Kpr-sF-RYL" secondAttribute="centerY" multiplier="0.8" id="4ho-0V-iN4"/>
                             <constraint firstItem="nxo-oU-lqc" firstAttribute="top" secondItem="fbx-pa-cFp" secondAttribute="bottom" constant="20" id="5f1-kt-28b"/>
-                            <constraint firstItem="nxo-oU-lqc" firstAttribute="centerX" secondItem="nW1-FO-otk" secondAttribute="centerX" id="6gn-SD-ryw"/>
                             <constraint firstItem="Kpr-sF-RYL" firstAttribute="top" secondItem="nW1-FO-otk" secondAttribute="top" constant="20" id="EOb-fo-Fvv"/>
                             <constraint firstItem="rVI-sg-RUD" firstAttribute="centerY" secondItem="Kpr-sF-RYL" secondAttribute="centerY" id="G0K-6Z-EQh"/>
                             <constraint firstItem="fbx-pa-cFp" firstAttribute="top" secondItem="JSo-8p-3ZG" secondAttribute="bottom" constant="8" id="Hsb-bV-0Ce"/>
                             <constraint firstItem="fbx-pa-cFp" firstAttribute="leading" secondItem="JSo-8p-3ZG" secondAttribute="leading" id="L0g-Pr-d2g"/>
+                            <constraint firstItem="nxo-oU-lqc" firstAttribute="leading" secondItem="nW1-FO-otk" secondAttribute="leading" constant="17" id="L5L-2Y-KlC"/>
+                            <constraint firstAttribute="trailing" secondItem="nxo-oU-lqc" secondAttribute="trailing" constant="17" id="T1f-Gs-Sew"/>
                             <constraint firstItem="JSo-8p-3ZG" firstAttribute="leading" secondItem="Kpr-sF-RYL" secondAttribute="trailing" constant="8" id="Ycv-fV-NVN"/>
                             <constraint firstAttribute="trailing" secondItem="rVI-sg-RUD" secondAttribute="trailing" id="bYS-5N-d7H"/>
                             <constraint firstItem="Kpr-sF-RYL" firstAttribute="leading" secondItem="nW1-FO-otk" secondAttribute="leading" constant="20" id="x8j-dK-nja"/>
-                            <constraint firstItem="nxo-oU-lqc" firstAttribute="width" secondItem="nW1-FO-otk" secondAttribute="width" multiplier="0.7" id="yNU-qJ-f4z"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
