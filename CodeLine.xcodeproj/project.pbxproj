@@ -279,6 +279,302 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A2087426681E5400CA2143 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A8CE265B1DCF002C8039 /* AppDelegate.swift */,
+				24E2A8D0265B1DCF002C8039 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		24A2087826681E6300CA2143 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A924265B26E6002C8039 /* Storyboards.swift */,
+				24E2A907265B24C8002C8039 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		24A2087F26681E6E00CA2143 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A906265B24C8002C8039 /* Helpingmethods.swift */,
+				24E2A942265B2A24002C8039 /* Initializer.swift */,
+				24E2A943265B2A24002C8039 /* RootWindowController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		24A2088026681E7500CA2143 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A91E265B26E5002C8039 /* UITableViewCell+Extension.swift */,
+				24E2A922265B26E6002C8039 /* UIView+Extension.swift */,
+				24E2A926265B26E7002C8039 /* UIViewController+Extension.swift */,
+				24E2A925265B26E7002C8039 /* UIApplication+Extension.swift */,
+				24E2A91C265B26E5002C8039 /* UICollectionView+Extension.swift */,
+				24E2A920265B26E6002C8039 /* UICollectionViewCell+Extension.swift */,
+				24E2A923265B26E6002C8039 /* UIImageView.swift */,
+				24E2A91D265B26E5002C8039 /* UIScrollView+Extension.swift */,
+				24E2A91F265B26E5002C8039 /* UITableView+Extension.swift */,
+				24E2A921265B26E6002C8039 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24A2088426681EA800CA2143 /* Singletone */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A93D265B272C002C8039 /* SingletoneClass.swift */,
+			);
+			path = Singletone;
+			sourceTree = "<group>";
+		};
+		24A2088526681ECC00CA2143 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				24A208A6266823A500CA2143 /* Messages */,
+				24A2088A26681EF700CA2143 /* Settings */,
+				24A2088926681EED00CA2143 /* Contacts */,
+				24A2088826681EE700CA2143 /* Profile */,
+				24A2088726681EDE00CA2143 /* Calls */,
+				24A2088626681ED400CA2143 /* Account */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		24A2088626681ED400CA2143 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				24A2088D26681F6F00CA2143 /* Views */,
+				24A2088C26681F6500CA2143 /* Classes */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		24A2088726681EDE00CA2143 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				24A208AA2668246200CA2143 /* Classes */,
+				24A208A92668245D00CA2143 /* Views */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		24A2088826681EE700CA2143 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24A208932668209400CA2143 /* Views */,
+				24A208922668208F00CA2143 /* Classes */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		24A2088926681EED00CA2143 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				24A208AC266824B600CA2143 /* Classes */,
+				24A208AB266824B100CA2143 /* Views */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		24A2088A26681EF700CA2143 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				24A208902668206100CA2143 /* Classes */,
+				24A208912668206C00CA2143 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		24A2088C26681F6500CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */,
+				24AA5F44265EF5AA00663FBF /* HomePagerViewController.swift */,
+				24AA5F43265EF5AA00663FBF /* PagerController.swift */,
+				24E2A8D2265B1DCF002C8039 /* ViewController.swift */,
+				2473CB18265C73AA00AC3426 /* OnBoardingViewController.swift */,
+				24B7DFED2662A702007965C1 /* SecurityCodeViewController.swift */,
+				2443B16A2661522500B86E00 /* LanguageViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24A2088D26681F6F00CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2473CB12265C643300AC3426 /* OnBoardingCollectionViewCell.xib */,
+				24E2A8D4265B1DCF002C8039 /* Main.storyboard */,
+				24AA5F4D265EF66E00663FBF /* Account.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208902668206100CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2416509226641EF400D836CE /* SwitchAccountsViewController.swift */,
+				24AA5F8D265F054D00663FBF /* SettingsViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24A208912668206C00CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5F8E265F054D00663FBF /* SettingsViewController.xib */,
+				2416509326641EF400D836CE /* SwitchAccountsViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208922668208F00CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24456E612665446600E105CC /* MyProfileViewController.swift */,
+				24456E7226656D4200E105CC /* AddNewCollectionViewCell.swift */,
+				24456E792665A57B00E105CC /* EditProfileViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24A208932668209400CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24456E622665446600E105CC /* MyProfileViewController.xib */,
+				24456E7326656D4200E105CC /* AddNewCollectionViewCell.xib */,
+				24456E7A2665A57B00E105CC /* EditProfileViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208A32668225700CA2143 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A8D9265B1DD3002C8039 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		24A208A42668226A00CA2143 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A8D7265B1DD3002C8039 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		24A208A52668227600CA2143 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				24E2A8DC265B1DD3002C8039 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		24A208A6266823A500CA2143 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				24A208A8266823B400CA2143 /* Classes */,
+				24A208A7266823AF00CA2143 /* Views */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		24A208A7266823AF00CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5ED3265EAA3C00663FBF /* MessageCollectionViewCell.xib */,
+				24AA5EDA265EAA5600663FBF /* MessageAddCollectionViewCell.xib */,
+				24AA5EE6265EBBA100663FBF /* MessageTableViewCell.xib */,
+				24AA5F84265F040000663FBF /* MessagesViewController.xib */,
+				24FEC5CD2660021600A34782 /* AudioTableViewCell_FromMe.xib */,
+				24FEC5DA2660065400A34782 /* TextTableViewCell_FromMe.xib */,
+				24FEC5E12660077100A34782 /* TextTableViewCell_ToMe.xib */,
+				24FEC60226600DAD00A34782 /* ChatViewController.xib */,
+				24FEC61026603AA800A34782 /* UserProfileViewController.xib */,
+				24FEC61A26606A5E00A34782 /* GalleryCollectionViewCell.xib */,
+				2443B15E2661342200B86E00 /* ProjectDetailsViewController.xib */,
+				2443B17026619A5200B86E00 /* OccasionsViewController.xib */,
+				2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208A8266823B400CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5ED2265EAA3C00663FBF /* MessageCollectionViewCell.swift */,
+				24AA5ED9265EAA5600663FBF /* MessageAddCollectionViewCell.swift */,
+				24AA5EE5265EBBA100663FBF /* MessageTableViewCell.swift */,
+				24AA5F83265F040000663FBF /* MessagesViewController.swift */,
+				24FEC5CC2660021600A34782 /* AudioTableViewCell_FromMe.swift */,
+				24FEC5D92660065400A34782 /* TextTableViewCell_FromMe.swift */,
+				24FEC5E02660077100A34782 /* TextTableViewCell_ToMe.swift */,
+				24FEC60126600DAD00A34782 /* ChatViewController.swift */,
+				24FEC60F26603AA800A34782 /* UserProfileViewController.swift */,
+				24FEC61926606A5E00A34782 /* GalleryCollectionViewCell.swift */,
+				2443B15D2661342200B86E00 /* ProjectDetailsViewController.swift */,
+				2443B16F26619A5200B86E00 /* OccasionsViewController.swift */,
+				2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24A208A92668245D00CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5F6A265F037F00663FBF /* CallsViewController.xib */,
+				24B7DFF32662C51F007965C1 /* CallsTableViewCell.xib */,
+				24B7DFFA26630376007965C1 /* CallingViewController.xib */,
+				24B7E00126630422007965C1 /* RingingViewController.xib */,
+				24B7E0082663043D007965C1 /* InCallViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208AA2668246200CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5F69265F037F00663FBF /* CallsViewController.swift */,
+				24B7DFF22662C51F007965C1 /* CallsTableViewCell.swift */,
+				24B7DFF926630376007965C1 /* CallingViewController.swift */,
+				24B7E00026630422007965C1 /* RingingViewController.swift */,
+				24B7E0072663043D007965C1 /* InCallViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24A208AB266824B100CA2143 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5F71265F039800663FBF /* ContactsViewController.xib */,
+				24B7E00F26631637007965C1 /* ParticipantsViewController.xib */,
+				24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */,
+				246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */,
+				2416508C2663F49300D836CE /* GroupViewController.xib */,
+				24456E6926654A3500E105CC /* OccasionCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A208AC266824B600CA2143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24AA5F70265F039800663FBF /* ContactsViewController.swift */,
+				24B7E00E26631637007965C1 /* ParticipantsViewController.swift */,
+				24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */,
+				246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */,
+				2416508B2663F49300D836CE /* GroupViewController.swift */,
+				24456E6826654A3500E105CC /* OccasionCollectionViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		24AA5EEC265EBDD800663FBF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,96 +619,16 @@
 		24E2A8CD265B1DCF002C8039 /* CodeLine */ = {
 			isa = PBXGroup;
 			children = (
+				24A2088526681ECC00CA2143 /* Modules */,
+				24A2087426681E5400CA2143 /* Delegates */,
+				24A2087826681E6300CA2143 /* Constants */,
+				24A2087F26681E6E00CA2143 /* Helpers */,
+				24A2088026681E7500CA2143 /* Extensions */,
+				24A2088426681EA800CA2143 /* Singletone */,
+				24A208A42668226A00CA2143 /* Assets */,
 				24AA5EEC265EBDD800663FBF /* Fonts */,
-				24E2A8CE265B1DCF002C8039 /* AppDelegate.swift */,
-				24E2A8D0265B1DCF002C8039 /* SceneDelegate.swift */,
-				24E2A907265B24C8002C8039 /* Constants.swift */,
-				24E2A906265B24C8002C8039 /* Helpingmethods.swift */,
-				24E2A921265B26E6002C8039 /* Extensions.swift */,
-				24E2A942265B2A24002C8039 /* Initializer.swift */,
-				24E2A943265B2A24002C8039 /* RootWindowController.swift */,
-				24E2A924265B26E6002C8039 /* Storyboards.swift */,
-				24E2A925265B26E7002C8039 /* UIApplication+Extension.swift */,
-				24E2A93D265B272C002C8039 /* SingletoneClass.swift */,
-				24E2A91C265B26E5002C8039 /* UICollectionView+Extension.swift */,
-				24E2A920265B26E6002C8039 /* UICollectionViewCell+Extension.swift */,
-				24E2A923265B26E6002C8039 /* UIImageView.swift */,
-				24E2A91D265B26E5002C8039 /* UIScrollView+Extension.swift */,
-				24E2A91F265B26E5002C8039 /* UITableView+Extension.swift */,
-				24AA5F44265EF5AA00663FBF /* HomePagerViewController.swift */,
-				24AA5F43265EF5AA00663FBF /* PagerController.swift */,
-				24E2A91E265B26E5002C8039 /* UITableViewCell+Extension.swift */,
-				24E2A922265B26E6002C8039 /* UIView+Extension.swift */,
-				24E2A926265B26E7002C8039 /* UIViewController+Extension.swift */,
-				24E2A8D2265B1DCF002C8039 /* ViewController.swift */,
-				24E2A8D4265B1DCF002C8039 /* Main.storyboard */,
-				24E2A8D7265B1DD3002C8039 /* Assets.xcassets */,
-				24E2A8D9265B1DD3002C8039 /* LaunchScreen.storyboard */,
-				24E2A8DC265B1DD3002C8039 /* Info.plist */,
-				2473CB11265C643300AC3426 /* OnBoardingCollectionViewCell.swift */,
-				2473CB12265C643300AC3426 /* OnBoardingCollectionViewCell.xib */,
-				2473CB18265C73AA00AC3426 /* OnBoardingViewController.swift */,
-				24AA5ED2265EAA3C00663FBF /* MessageCollectionViewCell.swift */,
-				24AA5ED3265EAA3C00663FBF /* MessageCollectionViewCell.xib */,
-				24AA5ED9265EAA5600663FBF /* MessageAddCollectionViewCell.swift */,
-				24AA5EDA265EAA5600663FBF /* MessageAddCollectionViewCell.xib */,
-				24AA5EE5265EBBA100663FBF /* MessageTableViewCell.swift */,
-				24AA5EE6265EBBA100663FBF /* MessageTableViewCell.xib */,
-				24AA5F4D265EF66E00663FBF /* Account.storyboard */,
-				24AA5F69265F037F00663FBF /* CallsViewController.swift */,
-				24AA5F6A265F037F00663FBF /* CallsViewController.xib */,
-				24AA5F70265F039800663FBF /* ContactsViewController.swift */,
-				24AA5F71265F039800663FBF /* ContactsViewController.xib */,
-				24AA5F83265F040000663FBF /* MessagesViewController.swift */,
-				24AA5F84265F040000663FBF /* MessagesViewController.xib */,
-				24AA5F8D265F054D00663FBF /* SettingsViewController.swift */,
-				24AA5F8E265F054D00663FBF /* SettingsViewController.xib */,
-				24FEC5CC2660021600A34782 /* AudioTableViewCell_FromMe.swift */,
-				24FEC5CD2660021600A34782 /* AudioTableViewCell_FromMe.xib */,
-				24FEC5D92660065400A34782 /* TextTableViewCell_FromMe.swift */,
-				24FEC5DA2660065400A34782 /* TextTableViewCell_FromMe.xib */,
-				24FEC5E02660077100A34782 /* TextTableViewCell_ToMe.swift */,
-				24FEC5E12660077100A34782 /* TextTableViewCell_ToMe.xib */,
-				24FEC60126600DAD00A34782 /* ChatViewController.swift */,
-				24FEC60226600DAD00A34782 /* ChatViewController.xib */,
-				24FEC60F26603AA800A34782 /* UserProfileViewController.swift */,
-				24FEC61026603AA800A34782 /* UserProfileViewController.xib */,
-				24FEC61926606A5E00A34782 /* GalleryCollectionViewCell.swift */,
-				24FEC61A26606A5E00A34782 /* GalleryCollectionViewCell.xib */,
-				2443B15D2661342200B86E00 /* ProjectDetailsViewController.swift */,
-				2443B15E2661342200B86E00 /* ProjectDetailsViewController.xib */,
-				2443B16A2661522500B86E00 /* LanguageViewController.swift */,
-				2443B16F26619A5200B86E00 /* OccasionsViewController.swift */,
-				2443B17026619A5200B86E00 /* OccasionsViewController.xib */,
-				2443B1762661A2D400B86E00 /* OccasionsTableViewCell.swift */,
-				2443B1772661A2D400B86E00 /* OccasionsTableViewCell.xib */,
-				24B7DFED2662A702007965C1 /* SecurityCodeViewController.swift */,
-				24B7DFF22662C51F007965C1 /* CallsTableViewCell.swift */,
-				24B7DFF32662C51F007965C1 /* CallsTableViewCell.xib */,
-				24B7DFF926630376007965C1 /* CallingViewController.swift */,
-				24B7DFFA26630376007965C1 /* CallingViewController.xib */,
-				24B7E00026630422007965C1 /* RingingViewController.swift */,
-				24B7E00126630422007965C1 /* RingingViewController.xib */,
-				24B7E0072663043D007965C1 /* InCallViewController.swift */,
-				24B7E0082663043D007965C1 /* InCallViewController.xib */,
-				24B7E00E26631637007965C1 /* ParticipantsViewController.swift */,
-				24B7E00F26631637007965C1 /* ParticipantsViewController.xib */,
-				24B7E015266317F9007965C1 /* ParticipantaTableViewCell.swift */,
-				24B7E016266317F9007965C1 /* ParticipantaTableViewCell.xib */,
-				246820BF2663E3CB00AFA155 /* ContactTableViewCell.swift */,
-				246820C02663E3CB00AFA155 /* ContactTableViewCell.xib */,
-				2416508B2663F49300D836CE /* GroupViewController.swift */,
-				2416508C2663F49300D836CE /* GroupViewController.xib */,
-				2416509226641EF400D836CE /* SwitchAccountsViewController.swift */,
-				2416509326641EF400D836CE /* SwitchAccountsViewController.xib */,
-				24456E612665446600E105CC /* MyProfileViewController.swift */,
-				24456E622665446600E105CC /* MyProfileViewController.xib */,
-				24456E6826654A3500E105CC /* OccasionCollectionViewCell.swift */,
-				24456E6926654A3500E105CC /* OccasionCollectionViewCell.xib */,
-				24456E7226656D4200E105CC /* AddNewCollectionViewCell.swift */,
-				24456E7326656D4200E105CC /* AddNewCollectionViewCell.xib */,
-				24456E792665A57B00E105CC /* EditProfileViewController.swift */,
-				24456E7A2665A57B00E105CC /* EditProfileViewController.xib */,
+				24A208A32668225700CA2143 /* Launch */,
+				24A208A52668227600CA2143 /* Config */,
 			);
 			path = CodeLine;
 			sourceTree = "<group>";

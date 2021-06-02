@@ -34,7 +34,7 @@
                                 <rect key="frame" x="41.5" y="144" width="331" height="269"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rsn-RC-Byp" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                                <rect key="frame" x="17" y="463" width="380" height="164"/>
+                                <rect key="frame" x="17" y="463" width="380" height="175.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1W-qc-wIw">
                                         <rect key="frame" x="20" y="20" width="340" height="55"/>
@@ -45,18 +45,18 @@ Pin Code</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-mT-A14">
-                                        <rect key="frame" x="54" y="95" width="272" height="49"/>
+                                        <rect key="frame" x="54" y="95" width="272" height="60.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSK-9j-KGO" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="60.5" height="49"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60.5" height="60.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="-" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bsJ-4V-d9r">
-                                                        <rect key="frame" x="2" y="2" width="56.5" height="36"/>
+                                                        <rect key="frame" x="2" y="2" width="56.5" height="47.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMN-sZ-ftT">
-                                                        <rect key="frame" x="21" y="40" width="18.5" height="1"/>
+                                                        <rect key="frame" x="21" y="51.5" width="18.5" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="vyF-02-FS7"/>
@@ -69,6 +69,7 @@ Pin Code</string>
                                                     <constraint firstItem="bsJ-4V-d9r" firstAttribute="leading" secondItem="oSK-9j-KGO" secondAttribute="leading" constant="2" id="F44-wV-4h7"/>
                                                     <constraint firstAttribute="bottom" secondItem="bMN-sZ-ftT" secondAttribute="bottom" constant="8" id="GHy-13-Zjd"/>
                                                     <constraint firstItem="bMN-sZ-ftT" firstAttribute="top" secondItem="bsJ-4V-d9r" secondAttribute="bottom" constant="2" id="PXO-bT-mS3"/>
+                                                    <constraint firstAttribute="width" secondItem="oSK-9j-KGO" secondAttribute="height" id="QCp-7m-Lde"/>
                                                     <constraint firstItem="bsJ-4V-d9r" firstAttribute="top" secondItem="oSK-9j-KGO" secondAttribute="top" constant="2" id="es0-xB-xIn"/>
                                                     <constraint firstItem="bMN-sZ-ftT" firstAttribute="centerX" secondItem="oSK-9j-KGO" secondAttribute="centerX" id="iZd-F9-7aV"/>
                                                     <constraint firstAttribute="trailing" secondItem="bsJ-4V-d9r" secondAttribute="trailing" constant="2" id="xqy-i0-Nax"/>
@@ -86,15 +87,15 @@ Pin Code</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rei-r4-K1B" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                                                <rect key="frame" x="70.5" y="0.0" width="60.5" height="49"/>
+                                                <rect key="frame" x="70.5" y="0.0" width="60.5" height="60.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="-" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ISi-ce-Tky">
-                                                        <rect key="frame" x="2" y="2" width="56.5" height="36"/>
+                                                        <rect key="frame" x="2" y="2" width="56.5" height="47.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkm-lQ-qie">
-                                                        <rect key="frame" x="21" y="40" width="18.5" height="1"/>
+                                                        <rect key="frame" x="21" y="51.5" width="18.5" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="rwC-z9-Gag"/>
@@ -124,15 +125,15 @@ Pin Code</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgd-iQ-v8c" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                                                <rect key="frame" x="141" y="0.0" width="60.5" height="49"/>
+                                                <rect key="frame" x="141" y="0.0" width="60.5" height="60.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="-" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qn6-nU-mF8">
-                                                        <rect key="frame" x="2" y="2" width="56.5" height="36"/>
+                                                        <rect key="frame" x="2" y="2" width="56.5" height="47.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcS-rj-dbK">
-                                                        <rect key="frame" x="21" y="40" width="18.5" height="1"/>
+                                                        <rect key="frame" x="21" y="51.5" width="18.5" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="mmC-go-emp"/>
@@ -162,15 +163,15 @@ Pin Code</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvf-PT-1rf" customClass="DesignableUIView" customModule="CodeLine" customModuleProvider="target">
-                                                <rect key="frame" x="211.5" y="0.0" width="60.5" height="49"/>
+                                                <rect key="frame" x="211.5" y="0.0" width="60.5" height="60.5"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="-" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2hp-bm-lR9">
-                                                        <rect key="frame" x="2" y="2" width="56.5" height="36"/>
+                                                        <rect key="frame" x="2" y="2" width="56.5" height="47.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nnz-Op-mqK">
-                                                        <rect key="frame" x="21" y="40" width="18.5" height="1"/>
+                                                        <rect key="frame" x="21" y="51.5" width="18.5" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="drL-dh-bvY"/>
@@ -201,7 +202,12 @@ Pin Code</string>
                                             </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="49" id="myB-Th-f5W"/>
+                                            <constraint firstItem="Rei-r4-K1B" firstAttribute="width" secondItem="oSK-9j-KGO" secondAttribute="width" id="9FW-fr-WDB"/>
+                                            <constraint firstItem="zgd-iQ-v8c" firstAttribute="height" secondItem="Rei-r4-K1B" secondAttribute="height" id="Duk-yu-xep"/>
+                                            <constraint firstItem="jvf-PT-1rf" firstAttribute="width" secondItem="zgd-iQ-v8c" secondAttribute="width" id="Ggq-tZ-bJr"/>
+                                            <constraint firstItem="Rei-r4-K1B" firstAttribute="height" secondItem="oSK-9j-KGO" secondAttribute="height" id="QRG-x9-OlO"/>
+                                            <constraint firstItem="jvf-PT-1rf" firstAttribute="height" secondItem="zgd-iQ-v8c" secondAttribute="height" id="TzV-au-lwR"/>
+                                            <constraint firstItem="zgd-iQ-v8c" firstAttribute="width" secondItem="Rei-r4-K1B" secondAttribute="width" id="pL3-9Y-w79"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -222,7 +228,7 @@ Pin Code</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUn-41-jku" customClass="DesignableButton" customModule="CodeLine" customModuleProvider="target">
-                                <rect key="frame" x="17" y="667" width="380" height="48"/>
+                                <rect key="frame" x="17" y="678.5" width="380" height="48"/>
                                 <color key="backgroundColor" red="0.96025902029999999" green="0.84900027509999998" blue="0.68867629770000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="VaA-aR-Fl4"/>
@@ -334,7 +340,7 @@ Pin Code</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTO-xF-T5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-309" y="368"/>
         </scene>
         <!--Language View Controller-->
         <scene sceneID="ghH-l7-D9D">
@@ -995,7 +1001,7 @@ Pin Code</string>
                                 <rect key="frame" x="0.0" y="-6" width="414" height="918"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Complete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS0-uM-rGl">
-                                <rect key="frame" x="168.5" y="57.5" width="77.5" height="21"/>
+                                <rect key="frame" x="168" y="57.5" width="78.5" height="21"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1012,7 +1018,7 @@ Pin Code</string>
                                 <rect key="frame" x="0.0" y="144" width="414" height="768"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Welcome In CodeLine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaP-Ue-eTc">
-                                        <rect key="frame" x="20" y="50" width="222" height="27"/>
+                                        <rect key="frame" x="20" y="50" width="225.5" height="27"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="23"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1030,7 +1036,7 @@ Pin Code</string>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="(Required)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBR-bJ-zZo">
-                                        <rect key="frame" x="64" y="329.5" width="74" height="19"/>
+                                        <rect key="frame" x="64" y="329.5" width="73" height="19"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1072,7 +1078,7 @@ Pin Code</string>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="(Optional)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1T-MJ-qtZ">
-                                        <rect key="frame" x="114.5" y="457" width="71" height="19"/>
+                                        <rect key="frame" x="114.5" y="457" width="69" height="19"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1108,7 +1114,7 @@ Pin Code</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Enter Valid Format For Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9b-Sq-cn6">
-                                        <rect key="frame" x="220.5" y="542" width="173.5" height="16.5"/>
+                                        <rect key="frame" x="216" y="542" width="178" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Roboto-Italic" family="Roboto" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.047058823529411764" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1246,13 +1252,13 @@ Pin Code</string>
             <size key="intrinsicContentSize" width="75" height="30"/>
         </designable>
         <designable name="JTZ-tL-Nhm">
-            <size key="intrinsicContentSize" width="61" height="29"/>
+            <size key="intrinsicContentSize" width="63" height="29"/>
         </designable>
         <designable name="bT1-Ci-pUN">
             <size key="intrinsicContentSize" width="107" height="30"/>
         </designable>
         <designable name="fJI-pS-o7C">
-            <size key="intrinsicContentSize" width="87" height="29"/>
+            <size key="intrinsicContentSize" width="88" height="29"/>
         </designable>
         <designable name="reh-2k-qxe">
             <size key="intrinsicContentSize" width="37" height="30"/>
